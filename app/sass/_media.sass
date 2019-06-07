@@ -1,0 +1,520 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
++media-breakpoint-down(xl)
++media-breakpoint-down(lg) //1200
+	h1
+		font-size: 38px
+	.ishome
+		header
+			.header-top
+				.logo
+					.row
+						h3
+							font-size: 14px
+							margin: 20px
+	.isMariusPetipa
+	.isevents
+		header
+			.content
+				.row
+					div
+						h1
+							font-size: 20px
+	.isballerinas
+		header
+			.header-bottom
+				.container
+					.row
+						div
+							h1
+								font-size: 20px
+							img
+								width: 34px
+	.isfeedback
+		header
+			.container
+				.row
+					.align-self-center
+						.callback
+							h1
+								font-size: 20px
+	.isNotFound
+		header
+			.view404
+				right: 0
++media-breakpoint-down(md) //992
+	h1
+		font-size: 30px
+	body
+		font-size: 14px
+	.ishome
+		header
+			.header-top
+				.logo
+					.row
+						h3
+							font-size: 10px
+							margin: 20px
+			.header-down
+				.row
+					.line
+						width: 25%
+			.header-circle
+				.container-circle-lvl1
+					.container-circle-lvl2
+						right: -60%
+						.header-down-bg
+							width: 38%
+		.insert
+			font-size: 22px
+			.row
+				min-height: 20vh
+		.upcoming
+			.row
+				min-height: 50vh
+		footer
+			.events
+				.container
+					.row
+						padding-top: 100px
+						padding-bottom: 50px
+						height: auto
+					img
+						width: 130%
+			.next
+				.container
+					.row
+						img
+							height: 30px
+						img:hover
+							height: 28px
+	.isMariusPetipa
+		header
+			.content
+				.container
+					.row
+						.marius
+							h2
+								font-size: 14px
+	.isevents
+		header
+			.content
+				.row
+					div
+						h1
+							font-size: 18px
+			.header-circle
+				.container-circle-lvl1
+					.container-circle-lvl2
+						right: -65%
+						.header-top-bg
+							width: 105vh
+	.isballerinas
+		header
+			.header-bottom
+				.container
+					.row
+						div
+							h1
+								font-size: 18px
+							img
+								width: 32px
+	.isfeedback
+		header
+			.container
+				.row
+					.align-self-center
+						.callback
+							h1
+								font-size: 18px
+	.isNotFound
+		header
+			.view404
+				right: -40px
+				height: 350px
++media-breakpoint-down(sm) //768
+	h1
+		font-size: 24px
+	body
+		font-size: 12px
+	.ishome
+		header
+			.header-top
+				.logo
+					.row
+						h3
+							font-size: 10px
+							margin: 14px
+				.decoration
+					width: 75%
+					.row
+						.trian-1
+							width: 250px
+						.trian-2
+							width: 130px
+						.circle
+							width: 150px
+			.header-down
+				.row
+					.line
+						width: 30%
+			.header-circle
+				display: block
+				.container-circle-lvl1
+					.container-circle-lvl2
+						right: -70%
+						.header-down-bg
+							width: 29%
+							margin-top: 3vh
+		.insert
+			font-size: 20px
+		.upcoming
+			.container
+				max-width: 100%
+				.row
+					background-color: rgba(255, 255, 255, 0.8)
+					text-align: center
+					p
+						width: 85%
+						margin: auto
+		footer 
+			.events 
+				.container 
+					.row 
+						h3
+							font-size: 18px
+			.next
+				.container
+					.col-10
+						margin-left: auto
+	.isMariusPetipa
+		header
+			.content
+				height: 60vh
+				min-height: 260px
+				.portrait
+					display: none
+				.container
+					max-width: 100%
+					.row
+						height: 60vh
+						min-height: 260px
+						box-shadow: 0 5px 50px 0px rgba(0,0,0,.1)
+						.marius
+							background-color: rgba(241, 243, 242, 0)
+							h2
+								font-size: 10px
+				.decoration
+					width: 100%
+					.row
+						.trian-1
+							width: 150px
+						.trian-2
+							width: 100px
+						.circle
+							width: 80px
+							top: -35px
+			.portrait-mobil
+				display: block
+		.info
+			margin-top: 50px
+			margin-bottom: 20px
+			.row
+				p
+					margin-top: 30px
+					margin-bottom: 30px
+				.line
+					width: 40%
+		footer
+			.wiki
+				right: -56px
+				bottom: 0
+				.triangle
+					img
+						height: 210px
+				span
+					position: absolute
+					bottom: 0
+					right: 80px
+					font-size: 49px
+	.isevents
+		header
+			.content
+				.row
+					div
+						h1
+							font-size: 16px
+			.decoration
+				.container
+					.row
+						.trian-1
+							width: 200px
+						.trian-2
+							width: 100px
+						.circle
+							width: 150px
+			.header-circle
+				.container-circle-lvl1
+					.container-circle-lvl2
+						right: -70%
+						.header-top-bg
+							width: 102vh
+	.isballerinas
+		header
+			.header-bottom
+				.container
+					.row
+						div
+							h1
+								font-size: 16px
+							img
+								width: 30px
+			.decoration
+				.container
+					.row
+						.trian-1
+							width: 150px
+						.trian-2
+							width: 190px
+						.circle
+							width: 80px
+							bottom: 30px
+		section
+			.ballerinas-slider
+				.ballerinas-slide
+					display: block
+					.photo-mobile
+						display: block
+					.photo
+						display: none
+					.description
+						width: 100vw
+						p
+							margin: 5% 10% 5% 10%
+							max-height: 100%
+							overflow-y: visible
+			.owl-nav
+				div:first-child
+					left: 15px
+					filter: invert(1)
+				div:last-child
+					right: 15px
+			.owl-dots
+				position: inherit
+				width: 100px
+				margin: auto
+				margin-top: 10px
+	.isfeedback
+		header
+			.container
+				.row
+					.align-self-center
+						.callback
+							h1
+								font-size: 16px
+							input, textarea
+								width: 100%
+								margin: 30px auto
+								padding: 10px 22px
+							.restriction
+								width: 90%
+			.decoration
+				.container
+					.row
+						.trian-1
+							width: 200px
+							top: 40px
+							left: 50px
+						.trian-2
+							width: 100px
+							top: -50px
+							right: 0px
+						.circle
+							width: 120px
+							bottom: 30px
+							left: -200px
+	.isNotFound
+		header
+			.decoration
+				.container
+					.row
+						.trian-1
+							bottom: 20px
+							left: -100px
+						.trian-2
+							width: 160px
+							top: 10px
+							right: 10px
+						.circle
+							width: 130px
+							top: 40px
+							left: 20px
+			.view404
+				display: none
++media-breakpoint-down(xs) //576 
+	.ishome
+		header
+			.header-top
+				min-height: 70vh
+				.logo
+					.row
+						min-height: 70vh
+						.line
+							width: 30%
+				.decoration
+					width: 100%
+					.row
+						.trian-1
+							width: 180px
+						.trian-2
+							width: 100px
+						.circle
+							width: 130px
+			.header-down
+				min-height: 40vh
+				.row
+					min-height: 40vh
+			.header-circle
+				display: none
+		.insert
+			font-size: 15px
+		.upcoming
+			.row
+				min-height: 40vh
+		footer 
+			.events 
+				.container 
+					.row		
+						min-height: auto
+						.girl-blue
+							display: none
+	.isMariusPetipa
+		header
+			.content
+				.container
+					.row
+						.marius
+							padding: 10px
+							margin: auto
+							h1
+								font-size: 20px	
+							h2
+								font-size: 10px
+							.line
+								margin-top: 10px
+								margin-bottom: 10px
+								width: 45%
+							p
+								width: 90%
+								margin: auto
+								color: #464646
+				.decoration
+						opacity: 0.4
+		footer
+			.wiki
+				display: none
+	.isevents
+		header
+			.content
+				.row
+					div
+						h1
+							white-space: normal
+							text-align: center
+			.decoration
+				.container
+					.row
+						opacity: 0.1
+						.trian-1
+							width: 170px
+						.trian-2
+							width: 80px
+						.circle
+							width: 140px
+			.header-circle
+				display: none
+	.isballerinas
+		header
+			height: 70vh
+			.header-bottom
+				.container
+					.row
+						div
+							h1
+								white-space: normal
+								text-align: center
+			.decoration
+				.container
+					.row
+						height: 70vh
+						.trian-1
+							width: 80px
+						.trian-2
+							width: 60px
+						.circle
+							width: 65px
+		section
+			.ballerinas-slider
+				.ballerinas-slide
+					.photo
+						display: none
+					.description
+						width: 100vw
+						p
+							margin: 5% 6% 5% 6%
+							max-height: 100%
+							overflow-y: visible
+			.owl-nav
+				display: none
+			.owl-dots
+				position: inherit
+				width: 100px
+				margin: auto
+				margin-top: 10px
+			.owl-dots:after
+				content: "< - swipe - >"
+				text-align: center
+				width: 100%
+				display: block
+				color: #9b9b9b
+				font-size: 10px
+	.isfeedback
+		header
+			.decoration
+				.container
+					.row
+						opacity: 0.1
+	.isNotFound
+		header
+			.decoration
+				.container
+					.row
+						.trian-1
+							width: 110px
+							left: -20px
+						.trian-2
+							width: 120px
+						.circle
+							width: 100px
+							top: 80px
+			.content
+				.row
+					h1
+						font-size: 150px
+						line-height: 150px
+					p
+						font-size: 12px
+					a
+						margin: 30px auto
+					a:active
+						margin-top: 31px
+/*==========  Mobile First  ==========*/
+
++media-breakpoint-up(xs)
++media-breakpoint-up(sm) //576
++media-breakpoint-up(md) //768
++media-breakpoint-up(lg) //992
++media-breakpoint-up(xl) //1200

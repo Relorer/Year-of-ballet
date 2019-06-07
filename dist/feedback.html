@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Обратная связь</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#020202">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#020202">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#020202">
+
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body class="isfeedback">
+	<div class="full-bg bg-normal">
+		<div class="blackout">Cообщение отправленно</div>
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col align-self-center">
+						<form class="callback">
+							<!-- Hidden Required Fields -->
+							<input type="hidden" name="project_name" value="Year_of_ballet">
+							<input type="hidden" name="admin_email" value="yearballet@yandex.ru">
+							<input type="hidden" name="form_subject" value="Сообщение с сайта Year_of_ballet">
+							<!-- END Hidden Required Fields -->
+
+							<div class="logo text-center"><h1>Обратная связь</h1></div>
+							<input class="name" type="text" name="Имя" placeholder="Ваше имя..." required>
+							<input class="mail" type="text" name="Почта" placeholder="Ваш E-mail адрес..." required>
+							<textarea class="message" name="Сообщение" rows="10" placeholder="Текст сообщения..." required></textarea>
+							<div class="restriction">
+								<button class="button">Отправить</button>
+								<div class="border-up-left"></div>
+								<div class="border-up-right"></div>
+							</div>
+							<div class="caution caution-standart text-center">Все поля должны быть заполнены</div>			
+							<div class="caution caution-mail text-center">Введен некорректный E-mail адрес</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="decoration">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 align-self-start">
+							<img src="img/trian.svg" alt="" class="trian-1">
+						</div>
+						<div class="col-4 align-self-end">
+							<img src="img/circle.svg" alt="" class="circle">
+						</div>
+						<div class="col-4 align-self-center">
+							<img src="img/trian.svg" alt="" class="trian-2">
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<footer>
+			<div class="next">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-1"><a title="На главную" href="index.html"><img src="img/arrow.png" alt=""></a></div>
+						<div class="before col-10 text-center">Напишите нам</div>
+						<div class="after col-10 text-center">Спасибо за сообщение</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/scripts.min.js"></script>
+</body>
+</html>
